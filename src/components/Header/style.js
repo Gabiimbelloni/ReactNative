@@ -3,29 +3,32 @@ import { StyleSheet } from "react-native";
 const style = StyleSheet.create({
     Total: {
         backgroundColor:"red", 
-        height:"12%", 
-        width:"100%", 
-        marginBottom:"6%",
+        height: 120, 
+        width:430, 
+        marginBottom:22,
         flexDirection:'row',
         alignItems:"flex-start",
     },
     Imagem:{
-        height:"20%", 
-        width:"10%", 
-        marginLeft:"30%",
-        marginTop:"17%",
-        margin: "-20%"
+        height: 40, 
+        width:31, 
+        marginLeft:64,
+        marginTop:61,
+        //margin:10
     },
     texto:{
-        marginLeft: "20%",
-        marginTop:"15%",
+        marginLeft: 10,
+        marginTop:61,
         fontSize: 28,
         color: "white",
     },
     Seta:{
-        marginBottom:"100%",
-        
-
+        marginTop:64,
+        marginLeft:30
+    },
+    Map:{
+        marginTop:68,
+        marginLeft:65
     },
 })
 

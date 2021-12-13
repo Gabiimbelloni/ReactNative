@@ -2,11 +2,10 @@ import { StyleSheet } from "react-native";
 
 const style = StyleSheet.create({
     Total: {
-        //backgroundColor:"white", 
-        marginBottom:"12%",
-        width: "100%",
-        height: "100%",
-        marginLeft:"6%",
+        //marginBottom:"12%",
+        //width: "100%",
+        height: 900,
+        marginLeft:25,
         alignItems:"flex-start",
 
     },
@@ -16,19 +15,19 @@ const style = StyleSheet.create({
     },
     Login:{
         opacity: 0.5,
-        marginVertical:"8%",
+        marginVertical:28,
     },
     Opcao:{
         color: "red",
-        marginVertical:"75%",
-        marginTop:"1%",
+        marginVertical:300,
+        marginTop:5,
         fontSize: 18,
         textDecorationLine: 'underline'
     },
     Botao:{
         backgroundColor:"red",
-        width: "90%",
-        height: "6%",
+        width: 356,
+        height: 55,
         borderRadius: 5,
 
     },
@@ -36,15 +35,15 @@ const style = StyleSheet.create({
         fontSize:20,
         color: "white",
         textAlign:"center",
-        margin:"4%"
+        margin:14
     }, 
     toggle:{
-        marginLeft:"75%",
+        marginLeft:300,
         marginTop:"-7%",
        
     },
     toggle2:{
-        marginLeft:"75%",
+        marginLeft:300,
         marginTop:"-11%"
     }
 })

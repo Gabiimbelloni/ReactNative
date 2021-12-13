@@ -3,67 +3,62 @@ import { StyleSheet } from "react-native";
 const style = StyleSheet.create({
     Total: {
         backgroundColor:"red", 
-        height:"12%", 
-        width:"100%", 
-        marginBottom:"425%",
+        height:250, 
+        width:415, 
         flexDirection:'row',
-        alignItems:"flex-start",
+        //alignItems:"flex-start",
+        //zIndex: 2
     },
     Imagem:{
-        height:"20%", 
-        width:"10%", 
-        marginLeft:"18%",
-        marginTop:"14%",
-        margin: "-20%"
+        height:45, 
+        width:39, 
+        marginLeft:75,
+        marginTop:56,
+        //margin: "-20%"
     },
     texto:{
-        marginLeft: "20%",
-        marginTop:"15%",
+        marginLeft: 5,
+        marginTop:60,
         fontSize: 28,
         color: "white",
     },
     texto2:{
-        marginLeft: "-88%",
-        marginTop:"35%",
+        marginLeft: "-89%",
+        marginTop:160,
         fontSize: 17,
         color: "white",
     },
     TextoInicio:{
-        flexDirection:'row',
-        alignItems:"flex-start",
-        marginLeft:"-44%",
-        marginTop:"50%",
-        width: "50%",
-        height: "50%",
-        borderRadius: 50
+        backgroundColor: "white",
+        marginTop: 215,
+        width: 375,
+        height: 100,
+        marginLeft: -186,
+        
+        borderRadius: 5,
+        zIndex: 1
+
     }, 
     Botao:{
-        backgroundColor:"white",
-        borderRadius: 5,
-        height: "85%",
-        width: "178%"
+        marginLeft: 8
     },
     TextoBotao:{
         fontSize:14,
-        marginLeft:"8%",
+        marginLeft:15,
         opacity: 0.5,
     },
     ViewBotao:{
-
-        marginLeft:"28%",
-        width: "65%",
-        marginTop:"8%",
+        marginLeft:15,
+        width: 250,
+        marginTop:30,
         flexDirection:'row',
         //alignItems:"flex-start",
     },
-    icon2:{
-        marginLeft:"-30%"
-    },
     Sino:{
-       marginTop:"16%",
+       marginTop:65,
        flexDirection:'row',
        alignItems:"flex-start",
-       marginLeft:"5%"
+       marginLeft:19
        
     }, 
     Traco:{
@@ -73,45 +68,56 @@ const style = StyleSheet.create({
         marginVertical: 2.5,
     },
     TextoInicio2:{
-        flexDirection:'row',
-       // alignItems:"flex-start",
-        marginLeft:"-50%",
-        marginTop:"80%",
-        width: "50%",
-        height: "37%",
+        marginLeft:18,
+        marginTop:100,
+        width: 375,
+        height: 80,
         borderRadius: 50
     }, 
+    ViewImage:{
+        marginLeft:12,
+        marginTop:12,
+        width: 375,
+        height: 110,
+        borderRadius: 50
+    },
+    ViewInvestimento:{
+        backgroundColor: "white",
+        marginLeft:18,
+        marginTop:20,
+        width: 375,
+        height: 100,
+    },
     Botao2:{
         backgroundColor:"white",
         borderRadius: 5,
-        height: "85%",
-        width: "178%"
+        height: 78,
+        // alignSelf: "center"
+    },
+    ViewBotao2: {
+        // alignSelf: "center"
+        flexDirection: "row",
+        alignItems: "center",
+        marginTop: 13,
+        marginLeft: 20
+        
+    },
+    botaoInvestimento: {
+        marginLeft: 20
     },
     TextoBotao2:{
         fontSize:20,
-        marginLeft:"22%",
-        //textAlign: "center",
-        marginTop:"-9%"
-    },
-    icon3:{
-        marginLeft:"10%",
-        marginTop:"4%"
+        marginLeft:25,
     },
     icon4:{
-        marginLeft:"85%",
-        marginTop:"-12%"
+        marginLeft: 105
     },
-    TextoInicio3:{
-        flexDirection:'row',
-       // alignItems:"flex-start",
-        marginLeft:"-50%",
-        marginTop:"105%",
-        width: "18%",
-        height: "55%",
-        borderRadius: 50
-    }, 
-    
-
+    Botao3:{
+        backgroundColor:"white",
+        borderRadius: 5,
+        height: "100%"
+        // alignSelf: "center"
+    },
 })
 
 export default style

@@ -1,15 +1,15 @@
 import React from "react";
 import { View, Image, Text } from "react-native";
 import style from "./style";
-import { AntDesign } from '@expo/vector-icons';
+import { AntDesign, Ionicons } from '@expo/vector-icons';
 
 function Header(){
     return(
       <View style={style.Total}>
-             {/* <AntDesign  style={style.Seta} name="left" size={40} color="black" /> */}
+             <Ionicons style={style.Seta} name="ios-chevron-back-outline" size={30} color="white" />
              <Image style={style.Imagem} source={require("../../assets/transferir.png")}/>
              <Text style={style.texto}>Santander</Text>
-             {/* <AntDesign name="enviromento" size={24} color="black" /> */}
+             <AntDesign style={style.Map} name="enviromento" size={24} color="white" />
       </View>
     )
 }

@@ -1,10 +1,9 @@
 import React from "react";
-import { Text, TextInput, View, TouchableOpacity, Alert } from "react-native";
+import { Text, TextInput, View, TouchableOpacity, Alert, ScrollView } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import style from "./style";
-import { Fontisto  } from '@expo/vector-icons'; 
+import { Fontisto } from '@expo/vector-icons'; 
 import Header from "../../components/Header";
-import { Inicio } from "../Inicio";
 import { useState } from "react";
 
 export function Login(){
@@ -14,8 +13,8 @@ export function Login(){
     const [cpf, setCpf] = useState()
     const [senha, setSenha] = useState()
 
-    const nome = "Gabrielle"
-    const usuario ="123"
+    const nome = 17794612564
+    const usuario ="1234"
 
     function validacao(){
         console.log(cpf);
@@ -40,6 +39,7 @@ export function Login(){
     
     return(
         <>
+        <ScrollView>
             <Header/>
             <View style={style.Total}>
                 <Text style={style.Texto1}>Acessar sua conta</Text>
@@ -62,7 +62,7 @@ export function Login(){
                     <Text style={style.TextoBotao}>Entrar</Text>
                 </TouchableOpacity>
             </View>
-            <Inicio nome={cpf}/>
+            </ScrollView>
         </>
     )
 }
