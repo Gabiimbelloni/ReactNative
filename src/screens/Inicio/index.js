@@ -8,19 +8,20 @@ import { Ionicons } from '@expo/vector-icons';
 export function Inicio() {
     return (
         <>
+            <View style={style.Total}>
+                <EvilIcons style={style.Sino} name="bell" size={30} color="white" />
+                {/* <AntDesign  style={style.Seta} name="left" size={40} color="black" /> */}
+                <Image style={style.Imagem} source={require("../../assets/transferir.png")} />
+                <Text style={style.texto}>Santander</Text>
+                <View style={{ marginTop: "17%", marginLeft: "16%" }}>
+                    <View style={style.Traco}></View>
+                    <View style={style.Traco}></View>
+                    <View style={style.Traco}></View>
+                </View>
+            </View>
             <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
                 <View style={{ backgroundColor: "#EFF1EB" }}>
-
-                    <View style={style.Total}>
-                        <EvilIcons style={style.Sino} name="bell" size={30} color="white" />
-                        {/* <AntDesign  style={style.Seta} name="left" size={40} color="black" /> */}
-                        <Image style={style.Imagem} source={require("../../assets/transferir.png")} />
-                        <Text style={style.texto}>Santander</Text>
-                        <View style={{ marginTop: "17%", marginLeft: "16%" }}>
-                            <View style={style.Traco}></View>
-                            <View style={style.Traco}></View>
-                            <View style={style.Traco}></View>
-                        </View>
+                    <View style={style.Total2}>
                         <Text style={style.texto2}>Olá, Ramon Ives{"\n"}Ag 4421 CC 0024858-0</Text>
                         {/* <AntDesign name="enviromento" size={24} color="black" /> */}
                         <View style={style.TextoInicio}>

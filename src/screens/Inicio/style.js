@@ -3,7 +3,15 @@ import { StyleSheet } from "react-native";
 const style = StyleSheet.create({
     Total: {
         backgroundColor:"red", 
-        height:250, 
+        height:110, 
+        width:415, 
+        flexDirection:'row',
+        //alignItems:"flex-start",
+        //zIndex: 2
+    },
+    Total2: {
+        backgroundColor:"red", 
+        height:140, 
         width:415, 
         flexDirection:'row',
         //alignItems:"flex-start",
@@ -23,24 +31,23 @@ const style = StyleSheet.create({
         color: "white",
     },
     texto2:{
-        marginLeft: "-89%",
-        marginTop:160,
+        marginLeft: 20,
+        marginTop:28,
         fontSize: 17,
         color: "white",
     },
     TextoInicio:{
         backgroundColor: "white",
-        marginTop: 215,
+        marginTop: 105,
         width: 375,
         height: 100,
-        marginLeft: -186,
-        
+        marginLeft: -185,
         borderRadius: 5,
         zIndex: 1
 
     }, 
     Botao:{
-        marginLeft: 8
+        marginLeft: 8,
     },
     TextoBotao:{
         fontSize:14,
